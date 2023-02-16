@@ -9,7 +9,7 @@
     // document.write("Welcome to Javascript");
     function myFunc(){
         var stdName = document.getElementById("stdName").value;
-        var re=/^L1[((F)||(s))]{1}[0-9]{1}((BSCS)||(BBA)||(BSSE))[0-9]{4}@UCP.EDU.PK$/;
+        var re=/^L1[((F)||(s))]{1}[0-9]{2}((BSCS)||(BBA)||(BSSE))[0-9]{4}@UCP.EDU.PK$/;
         if(stdName.search(re)==-1){
             alert("Invalid");
         }else{
